@@ -1,0 +1,18 @@
+{
+  "name": "eslint-config-unfold",
+  "version": "0.0.1",
+  "description": "Linting config for ESLint",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/unfold/eslint-config.git"
+  },
+  "author": "Unfold",
+  "license": "ISC",
+  "homepage": "https://github.com/unfold/eslint-config#readme",
+  "dependencies": {
+    "airbnb-javascript": "git+https://git@github.com/airbnb/javascript.git#cac2d2848d4e1c777231e73478f2eaa23021c888",
+    "lodash": "^3.10.1",
+    "strip-json-comments": "^1.0.4"
+  }
+}
