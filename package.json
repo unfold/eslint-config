@@ -11,7 +11,7 @@
   "license": "ISC",
   "homepage": "https://github.com/unfold/eslint-config#readme",
   "dependencies": {
-    "airbnb-javascript": "git+https://git@github.com/airbnb/javascript.git#cac2d2848d4e1c777231e73478f2eaa23021c888",
+    "airbnb-style": "git+https://git@github.com/airbnb/javascript.git",
     "lodash": "^3.10.1",
     "strip-json-comments": "^1.0.4"
   }
