@@ -1,7 +1,7 @@
 var path = require('path')
 var stripComments = require('strip-json-comments')
 var fs = require('fs')
-var airbnbConfig = require('./node_modules/airbnb-style/packages/eslint-config-airbnb')
+var airbnbConfig = require('airbnb-style/packages/eslint-config-airbnb')
 var merge = require('lodash/object/merge')
 
 var filename = path.join(__dirname, '.eslintrc')
