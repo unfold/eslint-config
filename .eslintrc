@@ -5,8 +5,8 @@
     "react/sort-comp": [2, {
       "order": [
         "lifecycle",
-        "custom-methods",
         "everything-else",
+        "custom-methods",
         "render"
       ],
       "groups": {
@@ -42,14 +42,6 @@
     }],
 
     "no-extra-parens": 0,                     // http://eslint.org/docs/rules/no-extra-parens
-    "comma-dangle": [0, "always-multiline"],  // http://eslint.org/docs/rules/comma-dangle
-    "space-in-parens": [2, "never"],          // http://eslint.org/docs/rules/space-in-parens
-    "max-len": [1, 110, 2, {                  // http://eslint.org/docs/rules/max-len
-      "ignorePattern": "^(\\s*?)<.*"
-    }],
-    "semi": [2, "never"],                     // http://eslint.org/docs/rules/semi
-
-    "react/jsx-boolean-value": 0,             // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
-    "react/no-multi-comp": 0                  // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-multi-comp.md
+    "react/jsx-boolean-value": 0              // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
   }
 }
