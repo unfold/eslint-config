@@ -41,6 +41,7 @@
       }
     }],
 
+    "eol-last": 0,                            // http://eslint.org/docs/rules/eol-last.html
     "no-extra-parens": 0,                     // http://eslint.org/docs/rules/no-extra-parens
     "react/jsx-boolean-value": 0              // https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-boolean-value.md
   }
