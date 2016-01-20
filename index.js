@@ -40,6 +40,9 @@ module.exports = {
     }],
 
     'no-extra-parens': 0,
-    'react/jsx-boolean-value': 0
+    'react/jsx-boolean-value': 0,
+    "react/no-multi-comp": [2, {
+      "ignoreStateless": true
+    }]
   }
 }
