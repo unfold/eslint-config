@@ -1,13 +1,21 @@
 {
-  "name": "eslint-config-unfold",
-  "version": "0.0.2",
-  "description": "Linting config for ESLint",
-  "main": ".eslintrc",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/unfold/eslint-config.git"
-  },
+  "name": "@unfold/eslint-config",
+  "description": "Unfold's ESLint config",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "unfold/eslint-config",
   "author": "Unfold",
   "license": "ISC",
-  "homepage": "https://github.com/unfold/eslint-config#readme"
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^12.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "eslint-plugin-import": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.4.1"
+  }
 }

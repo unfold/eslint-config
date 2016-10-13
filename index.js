@@ -1,48 +1,19 @@
 module.exports = {
-  'rules': {
-    'react/sort-comp': [2, {
-      'order': [
-        'lifecycle',
-        'everything-else',
-        'custom-methods',
-        'render'
-      ],
-      'groups': {
-        'lifecycle': [
-          'displayName',
-          'mixins',
-          'propTypes',
-          'contextTypes',
-          'childContextTypes',
-          'statics',
-          'defaultProps',
-          'constructor',
-          'getDefaultProps',
-          'getInitialState',
-          'getChildContext',
-          'componentWillMount',
-          'componentDidMount',
-          'componentWillReceiveProps',
-          'shouldComponentUpdate',
-          'componentWillUpdate',
-          'componentDidUpdate',
-          'componentWillUnmount'
-        ],
-        'custom-methods': [
-          '/^on.+$/',
-          '/^get.+$/'
-        ],
-        'render': [
-          '/^render.+$/',
-          'render'
-        ]
-      }
+  extends: ['eslint-config-airbnb'].map(require.resolve),
+  rules: {
+    'arrow-parens': [2, 'as-needed'],
+    'max-len': [2, {
+      tabWidth: 2,
+      code: 100,
+      ignoreComments: false,
+      ignorePattern: '^\\s*test',
+      ignoreStrings: true,
+      ignoreTemplateLiterals: true,
+      ignoreTrailingComments: true,
+      ignoreUrls: true,
     }],
-
-    'no-extra-parens': 0,
-    'react/jsx-boolean-value': 0,
-    "react/no-multi-comp": [2, {
-      "ignoreStateless": true
-    }]
-  }
+    'no-param-reassign': [2, { props: false }],
+    semi: [2, 'never'],
+    'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+  },
 }
