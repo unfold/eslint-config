@@ -1,7 +1,8 @@
 module.exports = {
+  parser: 'babel-eslint',
   extends: ['eslint-config-airbnb'].map(require.resolve),
-  "env": {
-    "browser": true
+  env: {
+    browser: true,
   },
   rules: {
     'arrow-parens': [2, 'as-needed'],
