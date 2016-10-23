@@ -19,5 +19,6 @@ module.exports = {
     'no-param-reassign': [2, { props: false }],
     semi: [2, 'never'],
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
+    'react/forbid-prop-types': [1, { forbid: ['any'] }],
   },
 }
