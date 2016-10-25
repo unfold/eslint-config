@@ -7,7 +7,7 @@
   "author": "Unfold",
   "license": "ISC",
   "scripts": {
-    "lint": "eslint .",
+    "test": "eslint .",
     "postpublish": "greenkeeper-postpublish"
   },
   "files": [
