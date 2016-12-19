@@ -1,10 +1,12 @@
 module.exports = {
   parser: 'babel-eslint',
   extends: ['eslint-config-airbnb'].map(require.resolve),
+  plugins: ['eslint-plugin-appjson'],
   env: {
     browser: true,
   },
   rules: {
+    'appjson/require-process-env-defined': [1, ['NODE_ENV']],
     'arrow-parens': [2, 'as-needed'],
     'max-len': [2, {
       tabWidth: 2,
