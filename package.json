@@ -16,6 +16,7 @@
   "dependencies": {
     "babel-eslint": "^7.0.0",
     "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-appjson": "^0.1.2",
     "eslint-plugin-import": "1.16.x",
     "eslint-plugin-jsx-a11y": "^2.2.3",
     "eslint-plugin-react": "^6.4.1"
