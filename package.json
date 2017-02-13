@@ -1,7 +1,7 @@
 {
   "name": "@unfold/eslint-config",
   "description": "Unfold's ESLint config",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "main": "index.js",
   "repository": "unfold/eslint-config",
   "author": "Unfold",
