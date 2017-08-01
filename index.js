@@ -1,10 +1,7 @@
 module.exports = {
   parser: 'babel-eslint',
-  extends: ['eslint-config-airbnb'].map(require.resolve),
+  extends: ['eslint-config-react-app'].map(require.resolve),
   plugins: ['eslint-plugin-appjson'],
-  env: {
-    browser: true,
-  },
   rules: {
     'appjson/require-process-env-defined': [1, ['NODE_ENV']],
     'arrow-parens': [2, 'as-needed'],
@@ -21,7 +18,5 @@ module.exports = {
     'no-param-reassign': [2, { props: false }],
     semi: [2, 'never'],
     'react/jsx-filename-extension': [1, { extensions: ['.js'] }],
-    'react/forbid-prop-types': [1, { forbid: ['any'] }],
-    'react/require-default-props': 0,
   },
 }
